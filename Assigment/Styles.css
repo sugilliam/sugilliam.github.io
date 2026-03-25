@@ -1,0 +1,45 @@
+div {
+    width: 70%;
+    margin:auto;
+    background: red;
+    padding: 15px;
+}
+
+#image.avif{
+    background-image:url(image.avif) ;
+}
+
+button {
+    color: cadetblue;
+    background: navy;
+    border: 2px solid white;
+}  
+
+button:hover {
+    color: rgb(162, 145, 202);
+    background: rgb(5, 5, 7);
+    border: 2px solid rgb(216, 216, 216);
+}
+
+ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li{
+    padding: 0 30px;
+}
+
+
+    #secret-p-man{ 
+    color: rgb(126, 126, 133);
+    text-align: right;
+}
+
+
+  #p-drizzle{
+  color: rgb(160, 65, 65);
+}
+     

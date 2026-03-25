@@ -1,0 +1,107 @@
+section{
+    background: white;
+    color: peru;
+    padding: 15px;
+    width:100%;
+    margin: 5px;
+}
+
+
+
+/*use these styles on Large screens eg)Laptop or Desktop*/
+@media screen and (min-width: 768px) {
+ .columns {
+    display:flex;
+ }
+ body {
+    /* background-image:url(images/nivece.webp) ; */
+ }
+    .one {
+        flex:1;
+    }
+    .two {
+        flex:2;
+    }
+    .three{
+        flex:3;
+    }
+    .four {
+        flex:4;
+    }
+}
+  .row1 section {
+    background: red;
+  }
+
+  .row2 section{
+    background: purple;
+  }
+
+  .row3 section {
+    background: firebrick;
+  }
+
+  .box{
+    height: 200px;
+    border-radius: 7px;
+    box-shadow: 10px 10px 5px lightblue;
+     width: 20%;
+    margin:auto;  
+  }
+
+  #div4  {
+    width:1000px; 
+    margin:auto;
+    padding: 10px;
+    height:100;
+    
+  }
+
+#div1 {
+  border-radius: 25px;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+#ball {
+    width: 40px;
+    height: 40px;
+    background-color: orangered;
+    border-radius: 1000px;
+    animation-name: bounce;
+  animation-duration: 1s;
+  animation-iteration-count:infinite;
+  position: relative;
+}
+
+/* The animation code */
+@keyframes bounce {
+  from {
+        background-color: red;
+    }
+  to {
+        background-color: yellow;
+        width: 500px;
+    }
+  
+}
+
+@keyframes bounce {
+    0%{background-color: brown;
+        top:10px;
+    }
+    67%{background-color: honeydew;
+        top:100px;
+    }
+    100%{background-color: khaki;
+         top:0px;
+    }
+    300%{background-color: darkred;
+        
+    }
+    20%{background-color: blue;
+        left: 100px;
+    }
+
+}

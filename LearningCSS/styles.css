@@ -1,0 +1,45 @@
+#main-content {
+    width: 70%;
+    margin:auto;
+    background: red;
+    padding: 15px;
+}
+
+#Lebron-james{
+    background-image:url(Lebronjames.jpg) ;
+}
+
+button {
+    color: cadetblue;
+    background: navy;
+    border: 2px solid white;
+}  
+
+button:hover {
+    color: rgb(79, 14, 233);
+    background: rgb(53, 53, 77);
+    border: 2px solid rgb(209, 0, 0);
+}
+
+ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li{
+    padding: 0 30px;
+}
+
+
+    #secret-p-man{ 
+    color: blue;
+    text-align: right;
+}
+
+
+  #p-drizzle{
+  color: red;
+}
+     

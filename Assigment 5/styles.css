@@ -1,0 +1,19 @@
+.columns {
+    display:flex;
+}
+ul {
+    justify-content: space-between;
+}
+#maincontent {
+    justify-content: space-between;
+}
+#width {
+    width:51%;
+    margin: auto;
+}
+img {
+max-width: 100%;
+}
+h1 {
+    text-align: center;
+}
